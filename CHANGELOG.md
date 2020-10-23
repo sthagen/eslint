@@ -1,3 +1,53 @@
+v7.11.0 - October 9, 2020
+
+* [`23e966f`](https://github.com/eslint/eslint/commit/23e966f6cf2a6c6b699dff5d6950ece3cc396498) Chore: Refactor CLIEngine tests (refs #13481) (#13709) (Nicholas C. Zakas)
+* [`fa9429a`](https://github.com/eslint/eslint/commit/fa9429aac0ffed505f3f02e8fc75f646c69f5c61) Fix: don't count line after EOF in max-lines (#13735) (Milos Djermanovic)
+* [`d973675`](https://github.com/eslint/eslint/commit/d973675a5c06a2bd4f8ce640c78b67842cfebfd4) Docs: Update anchor links to use existing linkrefs (refs #13715) (#13741) (Brandon Mills)
+* [`2c6d774`](https://github.com/eslint/eslint/commit/2c6d774c89dcd14f386bd9d73d451fa2a892c3ef) Docs: Fix typos (#13730) (Frieder Bluemle)
+* [`cc468c0`](https://github.com/eslint/eslint/commit/cc468c01021385a028de727eefcd442e7f34875c) Upgrade: eslint-visitor-keys@2.0.0 (#13732) (Milos Djermanovic)
+* [`ab0ac6c`](https://github.com/eslint/eslint/commit/ab0ac6c532fb7b7d49779c8913146244d680743b) Docs: Fix anchor links (#13715) (Gary Moore)
+* [`27f0de6`](https://github.com/eslint/eslint/commit/27f0de62e6281c28043be38ef051818c9edc15cd) Fix: account for linebreaks before postfix `++`/`--` in no-extra-parens (#13731) (Milos Djermanovic)
+* [`da78fa1`](https://github.com/eslint/eslint/commit/da78fa11632a2908db4ac494012a16f5d5a88a64) Update: support async arrow fn in function-paren-newline (fixes #13728) (#13729) (Michal Dziekonski)
+* [`fe301b8`](https://github.com/eslint/eslint/commit/fe301b8cc0762d7f4edd59603ca51ed0ec0c2a43) Docs: Add configuration comments in examples (#13738) (YeonJuan)
+* [`504408c`](https://github.com/eslint/eslint/commit/504408cd65e9d8827b2b8bbeb8f589df90eee523) Sponsors: Sync README with website (ESLint Jenkins)
+* [`3900659`](https://github.com/eslint/eslint/commit/390065985b2289ad4412a83598e3e833c382d27e) Sponsors: Sync README with website (ESLint Jenkins)
+* [`c1974b3`](https://github.com/eslint/eslint/commit/c1974b3f7169a8e5fab7007df92d02d8c1a8d5a3) Sponsors: Sync README with website (ESLint Jenkins)
+* [`6f4abe5`](https://github.com/eslint/eslint/commit/6f4abe5d5ade2711cc4c21bc8485af952763c2d3) Sponsors: Sync README with website (ESLint Jenkins)
+
+v7.10.0 - September 26, 2020
+
+* [`6919fbb`](https://github.com/eslint/eslint/commit/6919fbb83f86552b0f49ae749da866e4edc7c46a) Docs: Clarify that ignorePattern should be a string (refs #13029) (#13718) (Brandon Mills)
+* [`07d9bea`](https://github.com/eslint/eslint/commit/07d9bea7c6f953e8f754afffc9752edcee799431) Update: Add ignorePattern to no-inline-comments (#13029) (Edie Lemoine)
+* [`d79bbe9`](https://github.com/eslint/eslint/commit/d79bbe982930b53358d34ad91cc6e5eaac8ddede) Docs: fix typo (#13717) (Alexander Liu)
+* [`9b8490e`](https://github.com/eslint/eslint/commit/9b8490ee6391c986b1314540a92b71d8c1e0efc4) Docs: grammatical error (#13687) (rajdeep)
+* [`cb44e93`](https://github.com/eslint/eslint/commit/cb44e93f4780e925a75a68ce2f7f6d065b5f756c) Fix: prefer-destructuring invalid autofix with computed property access (#13704) (Milos Djermanovic)
+* [`46c73b1`](https://github.com/eslint/eslint/commit/46c73b159a5ceed2f7f26f254fd97e459fb0e81a) Upgrade: eslint-scope@5.1.1 (#13716) (Milos Djermanovic)
+* [`b7b12ba`](https://github.com/eslint/eslint/commit/b7b12ba0bd4e9c66883f11e97de8ed84b600cdaa) Chore: Move comment to make tests more organized (#13707) (Yusuke Tanaka)
+* [`51674a4`](https://github.com/eslint/eslint/commit/51674a4113a1ca877094606bbf4938ab06cc1aad) Docs: Add missing quotes (#13714) (Lucio Paiva)
+* [`7c34a98`](https://github.com/eslint/eslint/commit/7c34a982aaf93a02348f56c9ce887c7dcf51b5bd) Chore: remove mistakenly added file (#13710) (Milos Djermanovic)
+* [`30b76c9`](https://github.com/eslint/eslint/commit/30b76c9a13fae3dff59f7db406d6c66f11152973) Docs: Clarify package.json requirement in Getting Started (refs #13549) (#13696) (Nicholas C. Zakas)
+* [`044560d`](https://github.com/eslint/eslint/commit/044560dcc74db98b28e293da2e2f3b41ecbf5884) Sponsors: Sync README with website (ESLint Jenkins)
+* [`54000d1`](https://github.com/eslint/eslint/commit/54000d13f27d5255851b5ac0606ad027e2b8d331) Sponsors: Sync README with website (ESLint Jenkins)
+
+v7.9.0 - September 12, 2020
+
+* [`3ca2700`](https://github.com/eslint/eslint/commit/3ca27004ece5016ba7aed775f01ad13bc9282296) Fix: Corrected notice for invalid (:) plugin names (#13473) (Josh Goldberg)
+* [`fc5783d`](https://github.com/eslint/eslint/commit/fc5783d2ff9e3b0d7a1f9664928d49270b4a6c01) Docs: Fix leaky anchors in v4 migration page (#13635) (Timo Tijhof)
+* [`f1d07f1`](https://github.com/eslint/eslint/commit/f1d07f112be96c64dfdaa154aa9ac81985b16238) Docs: Provide install commands for Yarn (#13661) (Nikita Baksalyar)
+* [`29d1cdc`](https://github.com/eslint/eslint/commit/29d1cdceedd6c056a39149723cf9ff2fbb260cbf) Fix: prefer-destructuring removes comments (refs #13678) (#13682) (Milos Djermanovic)
+* [`b4da0a7`](https://github.com/eslint/eslint/commit/b4da0a7ca7995435bdfc116fd374eb0649470131) Docs: fix typo in working with plugins docs (#13683) (啸生)
+* [`6f87db7`](https://github.com/eslint/eslint/commit/6f87db7c318225e48ccbbf0bec8b3758ea839b82) Update: fix id-length false negatives on Object.prototype property names (#13670) (Milos Djermanovic)
+* [`361ac4d`](https://github.com/eslint/eslint/commit/361ac4d895c15086fb4351d4dca1405b2fdc4bd5) Fix: NonOctalDecimalIntegerLiteral is decimal integer (fixes #13588) (#13664) (Milos Djermanovic)
+* [`f260716`](https://github.com/eslint/eslint/commit/f260716695064e4b4193337107b60401bd4b3f20) Docs: update outdated link (#13677) (klkhan)
+* [`5138c91`](https://github.com/eslint/eslint/commit/5138c913c256e4266ffb68278783af45bf70af84) Docs: add missing eslint directive comments in no-await-in-loop (#13673) (Milos Djermanovic)
+* [`17b58b5`](https://github.com/eslint/eslint/commit/17b58b528df62bf96813d50c087cafdf83306810) Docs: clarify correct example in no-return-await (fixes #13656) (#13657) (Milos Djermanovic)
+* [`9171f0a`](https://github.com/eslint/eslint/commit/9171f0a99bb4d7c53f109b1c2b215004a7c27713) Chore: fix typo (#13660) (Nitin Kumar)
+* [`6d9f8fb`](https://github.com/eslint/eslint/commit/6d9f8fbb7ed4361b475fb50d04e6d25744d5b1a2) Sponsors: Sync README with website (ESLint Jenkins)
+* [`97b0dd9`](https://github.com/eslint/eslint/commit/97b0dd9a1af1ae4ae3857adcfe6eeac7837101ed) Sponsors: Sync README with website (ESLint Jenkins)
+* [`deab125`](https://github.com/eslint/eslint/commit/deab125fc9220dab43baeb32c6cf78942ad25a83) Sponsors: Sync README with website (ESLint Jenkins)
+* [`bf2e367`](https://github.com/eslint/eslint/commit/bf2e367bf4f6fde9930af9de8b8d8bc3d8b5782f) Sponsors: Sync README with website (ESLint Jenkins)
+* [`8929208`](https://github.com/eslint/eslint/commit/89292084bf91ba5ae5bf966c6c56fa3da139ce57) Sponsors: Sync README with website (ESLint Jenkins)
+
 v7.8.1 - September 1, 2020
 
 * [`f542b5d`](https://github.com/eslint/eslint/commit/f542b5d0679b73326ad249fc44a54c3f848bd3e6) Fix: Update broken @eslint/eslintrc version (fixes #13641) (#13647) (Nicholas C. Zakas)
